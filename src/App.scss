@@ -30,6 +30,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    gap: 5px;
 }
 
 button:hover {
@@ -53,6 +54,7 @@ li {
 
 li p {
     margin: 5px 0;
+    width: 90%;
 }
 
 li em {
@@ -67,10 +69,11 @@ li em {
 
 form {
     margin-top: 20px;
+    width: 90%;
 }
 
 textarea {
-    width: 100%;
+    width: 80%;
     height: 60px;
     padding: 10px;
     margin-bottom: 10px;
@@ -81,6 +84,7 @@ textarea {
 label {
     font-weight: bold;
     margin-right: 10px;
+    width: 90%;
 }
 
 select {
@@ -101,8 +105,11 @@ h2 {
     font-size: 16px;
     margin: 0 5px;
     color: #6b1d9b;
+    display: inline-block;
+    gap: 50px;
+    padding: 20px;
 }
 
 .thumb-button:hover {
-    color: #007bff;
+    color: #536d89;
 }

@@ -1,5 +1,3 @@
-// src/JokeFetcher.tsx
-
 import React, { useContext, useState } from 'react';
 import { JokeContext } from './JokeContext';
 import { Joke } from './JokeReducer';
@@ -64,6 +62,7 @@ const JokeFetcher = () => {
               <em>Rating: {joke.rating}/5</em>
               <button onClick={() => increaseRating(joke.id)}>👍</button>
               <button onClick={() => decreaseRating(joke.id)}>👎</button>
+              <button onClick={() => increaseRating(joke.id)}>❌</button>
             </p>
           </li>
         ))}

@@ -1,5 +1,3 @@
-// src/jokeReducer.ts
-
 export interface Joke {
   id: number;
   description: string;

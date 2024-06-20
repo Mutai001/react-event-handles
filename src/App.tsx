@@ -1,18 +1,3 @@
-// import './App.scss'
-// import Joke from './components/Joke'
-// function App() {
-
-//   return (
-//     <>
-//        <Joke /> 
-//     </>
-//   )
-// }
-
-// export default App
-  
-
-
 import './App.scss'
 import React from 'react';
 import { JokeProvider } from './components/JokeContext';
